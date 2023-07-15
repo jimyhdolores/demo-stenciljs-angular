@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0" />
+		<title>Stencil Component Starter</title>
+		<link rel="stylesheet" href="/build/utp-web-components.css" />
+		<script type="module" src="/build/utp-web-components.esm.js"></script>
+		<script nomodule src="/build/utp-web-components.js"></script>
+		<style>
+			body {
+				padding: 5em;
+			}
+			.title {
+				margin-top: 40px;
+				font-size: 3rem;
+				margin-bottom: 20px;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="title">El <span>GDSC Fest Perú</span> 2023 está aquí!</h1>
+		<br />
+		<utp-input id="customInput"></utp-input>
+
+		<br />
+		<utp-button type-button="TRANSP" text="Click !"></utp-button>
+
+		<utp-fab-button-wsp></utp-fab-button-wsp>
+
+		<script>
+			const customInput = document.getElementById('customInput');
+			customInput.addEventListener('utpOnInput', (e) => {
+				console.log(e.detail);
+			});
+		</script>
+	</body>
+</html>

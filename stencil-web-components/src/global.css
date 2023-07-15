@@ -1,0 +1,6 @@
+@import './assets/style/fonts.css';
+
+body {
+	font-family: 'Libre Franklin', sans-serif;
+	font-weight: normal;
+}

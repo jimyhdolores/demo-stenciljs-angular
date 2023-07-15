@@ -1,0 +1,13 @@
+<div class="container">
+	<section class="form">
+		<h1 class="form__title">El <span>GDSC Fest Perú</span> 2023 está aquí!</h1>
+		<form [formGroup]="form" class="form__form">
+			<utp-input formControlName="name" placeholder="Ingresa tu nombre"></utp-input>
+			<utp-input formControlName="lastName" placeholder="Ingresa tu apellido"></utp-input>
+
+			<utp-button text="Registrarse" (utpOnClick)="utpOnClick()"></utp-button>
+		</form>
+		<utp-fab-button-wsp></utp-fab-button-wsp>
+	</section>
+	<img src="assets/main.png" alt="" />
+</div>

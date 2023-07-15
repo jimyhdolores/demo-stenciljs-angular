@@ -1,0 +1,26 @@
+input {
+	display: block;
+	width: 100%;
+	font-size: 0.975rem;
+	font-weight: 400;
+	line-height: inherit;
+	background-clip: padding-box;
+	appearance: none;
+	transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+input:focus {
+	outline: none;
+}
+
+.utp-input {
+	background-color: #fff;
+	box-shadow: 0 0 50px #0000001f;
+	border-radius: 25px;
+	border: 1px solid #fff;
+	height: 50px;
+	padding: 10px 20px;
+	color: #525252;
+}

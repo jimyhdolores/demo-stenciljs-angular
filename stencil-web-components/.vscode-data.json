@@ -1,0 +1,55 @@
+{
+  "version": 1.1,
+  "tags": [
+    {
+      "name": "utp-button",
+      "description": {
+        "kind": "markdown",
+        "value": ""
+      },
+      "attributes": [
+        {
+          "name": "text",
+          "description": ""
+        },
+        {
+          "name": "type-button",
+          "description": "",
+          "values": [
+            {
+              "name": "SOLID"
+            },
+            {
+              "name": "TRANSP"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "utp-fab-button-wsp",
+      "description": {
+        "kind": "markdown",
+        "value": ""
+      },
+      "attributes": []
+    },
+    {
+      "name": "utp-input",
+      "description": {
+        "kind": "markdown",
+        "value": ""
+      },
+      "attributes": [
+        {
+          "name": "placeholder",
+          "description": ""
+        },
+        {
+          "name": "value",
+          "description": ""
+        }
+      ]
+    }
+  ]
+}
